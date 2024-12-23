@@ -4,6 +4,7 @@
   "description": "Simple Elegant Fun!",
   "version": "0.0.1",
   "publisher": "AdityaBuradkar001",
+  "icon": "images/theme-icon.png",
   "engines": {
     "vscode": "^1.96.0"
   },
