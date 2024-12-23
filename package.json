@@ -27,5 +27,7 @@
         "path": "./themes/SEF Theme-color-theme.json"
       }
     ]
-  }
+  },
+  "license": "MIT"
+
 }
