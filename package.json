@@ -1,0 +1,21 @@
+{
+  "name": "sef-theme",
+  "displayName": "SEF Theme",
+  "description": "Simple Elegant Fun!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SEF Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/SEF Theme-color-theme.json"
+      }
+    ]
+  }
+}

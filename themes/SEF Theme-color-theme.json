@@ -1,0 +1,53 @@
+{
+    "name": "Simple Elegant Fun",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1E1F21",
+        "editor.foreground": "#D4D7DB",
+        "editor.selectionBackground": "#3C78D8",
+        "editor.lineHighlightBackground": "#252627",
+        "editorCursor.foreground": "#80CBC4",
+        "editorWhitespace.foreground": "#3B4045",
+        "activityBar.background": "#202124",
+        "sideBar.background": "#202124",
+        "tab.activeBackground": "#323336",
+        "tab.inactiveBackground": "#202124",
+        "statusBar.background": "#1E1F21"
+    },
+    "tokenColors": [
+        {
+            "scope": ["comment"],
+            "settings": {
+                "foreground": "#637777",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": ["string"],
+            "settings": {
+                "foreground": "#C3E88D"
+            }
+        },
+        {
+            "scope": ["keyword", "storage"],
+            "settings": {
+                "foreground": "#82AAFF"
+            }
+        },
+        {
+            "scope": ["constant.numeric", "constant.language"],
+            "settings": {
+                "foreground": "#F78C6C"
+            }
+        },
+        {
+            "scope": ["variable"],
+            "settings": {
+                "foreground": "#D4D7DB"
+            }
+        }
+    ]
+}
+
+
+
