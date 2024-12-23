@@ -3,7 +3,7 @@
   "displayName": "SEF Theme",
   "description": "Simple Elegant Fun!",
   "version": "0.0.1",
-  "publisher": "Aditya_Buradkar", 
+  "publisher": "sef", 
   "engines": {
     "vscode": "^1.96.0"
   },
