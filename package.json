@@ -3,11 +3,21 @@
   "displayName": "SEF Theme",
   "description": "Simple Elegant Fun!",
   "version": "0.0.1",
+  "publisher": "Aditya_Buradkar", 
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "Xcode-inspired",
+    "minimal",
+    "subtle",
+    "fast",
+    "elegant",
+    "dark theme",
+    "programming"
   ],
   "contributes": {
     "themes": [
