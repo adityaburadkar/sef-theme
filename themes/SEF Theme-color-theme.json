@@ -2,94 +2,128 @@
     "name": "Simple Elegant Fun",
     "type": "dark",
     "colors": {
-        "editor.background": "#1E1F21",
-        "editor.foreground": "#D4D7DB",
-        "editor.selectionBackground": "#3C78D8",
-        "editor.lineHighlightBackground": "#252627",
-        "editorCursor.foreground": "#80CBC4",
-        "editorWhitespace.foreground": "#3B4045",
-        "activityBar.background": "#323336",
-        "activityBar.foreground": "#D4D7DB",
-        "activityBar.inactiveForeground": "#637777",
-        "sideBar.background": "#323336",
-        "sideBar.foreground": "#D4D7DB",
-        "tab.activeBackground": "#3C4045",
-        "tab.activeForeground": "#FFFFFF",
-        "tab.inactiveBackground": "#323336",
-        "tab.inactiveForeground": "#637777",
-        "statusBar.background": "#1E1F21",
-        "statusBar.foreground": "#D4D7DB",
-        "titleBar.activeBackground": "#323336",
-        "titleBar.activeForeground": "#D4D7DB",
-        "titleBar.inactiveBackground": "#202124",
-        "titleBar.inactiveForeground": "#637777",
-        "quickInput.background": "#1E1F21",
-        "quickInput.foreground": "#D4D7DB",
-        "panel.background": "#1E1F21",
-        
-        "dropdown.background": "#1E1F21",
-        "dropdown.foreground": "#D4D7DB",
-        "input.background": "#1E1F21",
-        "input.foreground": "#D4D7DB",
-        "scrollbarSlider.background": "#3B404580",
-        "scrollbarSlider.hoverBackground": "#3B4045B3",
-        "scrollbarSlider.activeBackground": "#3B4045"
+        // Editor Colors
+        "editor.background": "#121417", // Deep dark for reduced eye strain
+        "editor.foreground": "#F0F6FC", // High-contrast but soft foreground
+        "editor.selectionBackground": "#264F78", // Muted blue for clarity
+        "editor.lineHighlightBackground": "#1A1E23", // Subtle background for line focus
+        "editorCursor.foreground": "#E0A96D", // Warm amber for an engaging cursor
+        "editorWhitespace.foreground": "#3A3F44", // Soft neutral for balance
+
+        // Activity Bar
+        "activityBar.background": "#16191F",
+        "activityBar.foreground": "#A0AEC0", // Calming neutral grey
+        "activityBar.inactiveForeground": "#4A5568", // Muted grey for inactive items
+
+        // Sidebar
+        "sideBar.background": "#16191F",
+        "sideBar.foreground": "#CBD5E0", // Slightly softened white for text
+
+        // Tabs
+        "tab.activeBackground": "#20242C", // Focused grey
+        "tab.activeForeground": "#F0F6FC", // Crisp white for active tab
+        "tab.inactiveBackground": "#16191F",
+        "tab.inactiveForeground": "#4A5568", // Muted grey for inactive tabs
+
+        // Status Bar
+        "statusBar.background": "#121417",
+        "statusBar.foreground": "#F0F6FC",
+
+        // Title Bar
+        "titleBar.activeBackground": "#16191F",
+        "titleBar.activeForeground": "#F0F6FC",
+        "titleBar.inactiveBackground": "#121417",
+        "titleBar.inactiveForeground": "#4A5568",
+
+        // Quick Input and Panel
+        "quickInput.background": "#1A1E23",
+        "quickInput.foreground": "#F0F6FC",
+        "panel.background": "#121417",
+
+        // Dropdown and Input
+        "dropdown.background": "#1A1E23",
+        "dropdown.foreground": "#F0F6FC",
+        "input.background": "#1A1E23",
+        "input.foreground": "#F0F6FC",
+
+        // Scrollbars
+        "scrollbarSlider.background": "#3A3F4480", // Transparent grey
+        "scrollbarSlider.hoverBackground": "#3A3F44B3", // Slightly brighter on hover
+        "scrollbarSlider.activeBackground": "#3A3F44"
     },
     "tokenColors": [
         {
             "scope": ["comment"],
             "settings": {
-                "foreground": "#637777",
+                "foreground": "#6A7981", // Muted cyan-grey for a soft look
                 "fontStyle": "italic"
             }
         },
         {
             "scope": ["string"],
             "settings": {
-                "foreground": "#C3E88D"
+                "foreground": "#A3D977" // Fresh green to pop strings
             }
         },
         {
             "scope": ["keyword", "storage"],
             "settings": {
-                "foreground": "#82AAFF"
+                "foreground": "#528BFF" // Energetic blue for reserved words
             }
         },
         {
             "scope": ["constant.numeric", "constant.language"],
             "settings": {
-                "foreground": "#F78C6C"
+                "foreground": "#F78C6C" // Vibrant coral for numbers
             }
         },
         {
             "scope": ["variable"],
             "settings": {
-                "foreground": "#D4D7DB"
+                "foreground": "#F0F6FC" // Primary white for variables
             }
         },
         {
             "scope": ["function", "entity.name.function"],
             "settings": {
-                "foreground": "#C792EA"
+                "foreground": "#FFD580" // Soft yellow for functions
             }
         },
         {
             "scope": ["type", "entity.name.type"],
             "settings": {
-                "foreground": "#FFCB6B"
+                "foreground": "#C792EA" // Rich purple for types
             }
         },
         {
             "scope": ["punctuation"],
             "settings": {
-                "foreground": "#D4D7DB"
+                "foreground": "#F0F6FC" // Balanced punctuation
             }
         },
         {
             "scope": ["invalid", "invalid.deprecated"],
             "settings": {
-                "foreground": "#FF5370",
-                
+                "foreground": "#FF5370", // Error highlighting with subtle red
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": ["entity.name.tag"],
+            "settings": {
+                "foreground": "#E06C75" // Red for tags
+            }
+        },
+        {
+            "scope": ["entity.other.attribute-name"],
+            "settings": {
+                "foreground": "#98C379" // Green for attributes
+            }
+        },
+        {
+            "scope": ["support.function"],
+            "settings": {
+                "foreground": "#56B6C2" // Cool blue for support functions
             }
         }
     ]
